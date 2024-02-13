@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Assignment5</title>
+  <title>Bootstrap Starter</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="assignment5.css" rel="stylesheet">
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assignment5.css">
 </head>
 <body>
 <h1>Have a cup with Rushika</h1>
-<div class="row">
+<div class="row" >
     <div class="col-sm-2">P</div>
     <div class="col-sm-2">I</div>
     <div class="col-sm-2">N</div>
@@ -33,25 +34,36 @@
 <br>
 <h5>Answer to Break question</h5>
 <p>On reducing size col-sm-2 has fixed size for each letter and col-md drink names will have available space maintaing their layout without breaking.</p>
+<h4 class="headings">Responsive Images</h4>
 <div class="container">
   <div class="row">
-  <img src="pepsi.jpg" class="img-fluid juiceimage">
-  <img src="lemon-juice.jpg" class="img-fluid juiceimage">
-  <img src="grapejuice.jpg" class="img-fluid juiceimage">
+    <div class="col-md-4">
+      <img src="pepsi.jpg" class="img-fluid juiceimage">
+    </div>
+    <div class="col-md-4">
+      <img src="lemon-juice.jpg" class="img-fluid juiceimage">
+    </div>
+    <div class="col-md-4">
+      <img src="grapejuice.jpg" class="img-fluid juiceimage">
+    </div>
+  </div>
 </div>
-</div>
+<br>
+<h4 class="headings">Thumbnails</h4>
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <img src="pepsi.jpg" class="img-thumbnail" alt="Pepsi">
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <img src="lemon-juice.jpg" class="img-thumbnail" alt="LemonJuice">
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
       <img src="grapejuice.jpg" class="img-thumbnail" alt="GrapeJuice">
     </div>
   </div>
 </div>
+
+
 </body>
 </html>
